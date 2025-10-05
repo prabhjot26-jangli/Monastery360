@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="media.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container-fluid">
+    <!-- Logo / Brand -->
+    <a class="navbar-brand" href="#">SikkimTrails</a>
+
+    <!-- Toggler / Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+
+        <!-- Explore / Monasteries -->
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Explore
+  </a>
+  <ul class="dropdown-menu">
+    <!-- Filter by Region Submenu -->
+    <li class="dropdown-submenu">
+      <a class="dropdown-item dropdown-toggle" href="#">Filter by Region</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Gangtok</a></li>
+        <li><a class="dropdown-item" href="#">Lachen</a></li>
+        <li><a class="dropdown-item" href="#">Pelling</a></li>
+        <li><a class="dropdown-item" href="#">Namchi</a></li>
+      </ul>
+    </li>
+
+    <!-- Choose Monastery Submenu -->
+    <li class="dropdown-submenu">
+      <a class="dropdown-item dropdown-toggle" href="#">Choose Monastery</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Rumtek Monastery</a></li>
+        <li><a class="dropdown-item" href="#">Pemayangtse Monastery</a></li>
+        <li><a class="dropdown-item" href="#">Tashiding Monastery</a></li>
+        <li><a class="dropdown-item" href="#">Enchey Monastery</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+      
+        <!-- Virtual Tour -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Virtual Tour</a>
+        </li>
+
+        <!-- Map -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Map</a>
+        </li>
+
+        <!-- About -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+        <!-- Contact -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+        <!-- Optional Dropdown for User -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profile
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="#">Bookmarks</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Search Form -->
+      <form class="d-flex ms-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search Monasteries" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Carasoul-->
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <!-- Carousel Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <!-- Carousel Items -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/c3.avif" class="d-block w-100" alt="Monastery 1">
+      <div class="carousel-caption d-none d-md-block text-start text-shadow">
+        <h2 class="fw-bold">Discover the Serenity of Sikkim</h2>
+        <p class="fs-5">Embark on a journey through tranquil monasteries and breathtaking landscapes.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/c2.avif" class="d-block w-100" alt="Monastery 2">
+      <div class="carousel-caption d-none d-md-block text-center text-shadow">
+        <h2 class="fw-bold">Adventure Awaits</h2>
+        <p class="fs-5">Experience the perfect blend of nature and culture in every corner.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/c1.avif" class="d-block w-100" alt="Sikkim Landscape">
+      <div class="carousel-caption d-none d-md-block text-end text-shadow">
+        <h2 class="fw-bold">Capture Every Moment</h2>
+        <p class="fs-5">From majestic mountains to serene valleys, Sikkim is a photographer’s paradise.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--About Sikkim-->
+<div class="container my-5">
+  <div class="row align-items-center">
+    <!-- Text Column -->
+    <div class="col-md-6 text-section">
+      <h2>Discover Sikkim</h2>
+      <p>
+        Sikkim is a land of breathtaking landscapes and spiritual monasteries. 
+        Explore the serene beauty, rich culture, and vibrant festivals of this Himalayan state. 
+        Whether you are a traveler or a pilgrim, Sikkim offers a unique experience for everyone.
+      </p>
+      <a href="#monasteries" class="btn btn-explore">Explore Monasteries</a>
+    </div>
+
+    <!-- Image Column -->
+    <div class="col-md-6">
+      <img src="images/c4.avif" class="img-fluid" alt="Sikkim Landscape">
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

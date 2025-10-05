@@ -1,0 +1,25 @@
+
+  @media (max-width: 768px) {
+    .carousel-caption h2 {
+      font-size: 1.4rem;
+    }
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+.navbar-custom .navbar-toggler {
+    border: none;   /* optional, remove border */
+}
+ .text-section h2 {
+        font-size: 2rem;
+    }
+
+    .text-section p {
+        font-size: 1rem;
+    }
+
+    .btn-explore {
+        width: 100%;
+        text-align: center;
+    }
+
+  }
